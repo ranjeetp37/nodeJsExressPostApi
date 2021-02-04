@@ -1,0 +1,21 @@
+{
+  "name": "nodejspostapi",
+  "version": "1.0.0",
+  "description": "node js express server post api example",
+  "main": "index.js",
+  "scripts": {
+    "build" : "tsc --project tsconfig.json",
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ranjeet prajapati",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.1.3",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5"
+  }
+}
